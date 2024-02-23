@@ -1,6 +1,6 @@
 # SFML_Random
 
-This is a collection of some project in one. Here I played around with chained lists, arrays, a snake game with SFML and a TicTacToe game with a stupid KI :)
+This is a collection of some project in one. Here I played around with chained lists, arrays, a snake game with SFML and a TicTacToe game with a stupid AI :)
 
 # Getting Started
 
