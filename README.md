@@ -5,6 +5,6 @@ This is a collection of some project in one. Here I played around with chained l
 # Getting Started
 
 1. Clone Repository
-`git clone <https://github.com/tp-codings/SFML_Stosssimulator.git`>
+`git clone <https://github.com/tp-codings/First_SFML_Random_C.git`>
 2. Build Executable (e.g. Visual Studio)
 
