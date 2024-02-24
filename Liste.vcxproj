@@ -25,7 +25,7 @@
     <ClCompile Include="src\Fruiiiit.cpp" />
     <ClCompile Include="src\Fruit.cpp" />
     <ClCompile Include="src\Liste.cpp" />
-    <ClCompile Include="src\Quelle.cpp" />
+    <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Snaaaake.cpp" />
     <ClCompile Include="src\Snake.cpp" />
     <ClCompile Include="src\SnakeBody.cpp" />

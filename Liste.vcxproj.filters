@@ -24,7 +24,7 @@
     <ClCompile Include="src\Liste.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="src\Quelle.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="src\Snaaaake.cpp">

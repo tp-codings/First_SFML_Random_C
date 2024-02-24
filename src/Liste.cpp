@@ -19,7 +19,7 @@ void Liste::listenApplication()
 	int val;
 
 	do {
-		std::cout << "Gib Buchstabe ein Hejel [p = push; k = pop; b = previus; n = next; d = destroy;  x = abbruch]\n\n";
+		std::cout << "Gib Buchstabe [p = push; k = pop; b = previus; n = next; d = destroy;  x = abbruch]\n\n";
 		print();
 		std::cin >> choice;
 		switch (choice)
@@ -28,14 +28,14 @@ void Liste::listenApplication()
 			std::cin >> val;
 			if (push(val) != 1)
 			{
-				std::cout << "ERROR::DU KLEINE SCHLAMPE!!! \n";
+				std::cout << "ERROR::Fehlerhafte Eingabe!!! \n";
 				system("PAUSE");
 			}
 			break;
 		case 'k':
 			if (pop() != 1) 
 			{
-				std::cout<< "ERROR::NICHTS ZUM BUMSEN DA \n";
+				std::cout<< "ERROR::Liste leer \n";
 				system("PAUSE");
 			}
 			break;
@@ -49,14 +49,14 @@ void Liste::listenApplication()
 		case 'b':
 			if (previous() != 1)
 			{
-				std::cout << "beim ersten ELement du Penner\n";
+				std::cout << "beim ersten ELement\n";
 				system("PAUSE");
 			}
 			break;
 		case 'n':
 			if (next() != 1)
 			{
-				std::cout << "beim letzten ELement du Penner\n";
+				std::cout << "beim letzten ELement\n";
 				system("PAUSE");
 			}
 			break;

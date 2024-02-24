@@ -13,7 +13,7 @@ int main() {
 	srand(time(0));
 
 	Liste liste;
-	//liste.listenApplication();
+	liste.listenApplication();
 	liste.push(3);
 	liste.print();
 
@@ -30,5 +30,5 @@ int main() {
 	//snake.play();
 
 	EngineSnake Snake;
-	Snake.play();
+	//Snake.play();
 }
